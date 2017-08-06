@@ -1,2 +1,2 @@
 # PrimerProyectoAndroid
-experimetno para aprender a realizar aplicaciones Android.
+experimento para aprender a realizar aplicaciones Android.
