@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/_2fc53db72cf219e20fd61969cbf4461c_marcianito_miprimer_proyecto_android"
+    tools:context="com.solrom.edgar.primerproyectoandroid.MainActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/mensaje"
+        android:textColor="#ffffff"
+        android:textSize="40sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.188"
+        app:layout_constraintHorizontal_bias="0.566" />
+
+    <Button
+        android:id="@+id/button"
+        style="@style/Widget.AppCompat.Button.Colored"
+        android:layout_width="112dp"
+        android:layout_height="59dp"
+        android:width="3dp"
+        android:background="@drawable/border"
+        android:color="#8B008B"
+        android:padding="15sp"
+        android:shape="rectangle"
+        android:text="@string/mensajeBoton"
+        android:textColor="#ffffff"
+        android:textColorHighlight="@color/colorAccent"
+        android:textSize="15dp"
+        tools:layout_editor_absoluteX="481dp"
+        tools:layout_editor_absoluteY="156dp" />
+
+
+</android.support.constraint.ConstraintLayout>
